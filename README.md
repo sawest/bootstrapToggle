@@ -10,9 +10,12 @@ Login as host.  Go to Host Menu/Extensions.  Click Install Extension.  Select th
 
 ## Usage
 
-Be sure to register the library in code behind!
+Be sure to register the library in code behind and include the CSS file in your HTML!
 
-Example: JavaScript.RequestRegistration("bootstrapToggle")
+Example to register library: JavaScript.RequestRegistration("bootstrapToggle")
+
+Example to include css:
+<dnn:dnncssinclude runat="server" filepath="~/Resources/Libraries/bootstrapToggle/02_02_00/bootstrap-toggle.min.css" />
 
 ### Basic example
 Simply add `data-toggle="toggle"` to convert checkboxes into toggles.
