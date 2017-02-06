@@ -6,21 +6,13 @@ Visit http://www.bootstraptoggle.com for demos.
 ## Getting Started
 
 ### Installation
-You can [download](https://github.com/minhur/bootstrap-toggle/archive/master.zip) the latest version of Bootstrap Toggle or use CDN to load the library.
-
-`Warning` If you are using Bootstrap v2.3.2, use `bootstrap2-toggle.min.js` and `bootstrap2-toggle.min.css` instead.
-
-```html
-<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-```
-
-### Bower Install
-```bash
-bower install bootstrap-toggle
-```
+Login as host.  Go to Host Menu/Extensions.  Click Install Extension.  Select the install package and install.
 
 ## Usage
+
+Be sure to register the library in code behind!
+
+Example: JavaScript.RequestRegistration("bootstrapToggle")
 
 ### Basic example
 Simply add `data-toggle="toggle"` to convert checkboxes into toggles.
