@@ -15,7 +15,7 @@ Be sure to register the library in code behind and include the CSS file in your 
 Example to register library: JavaScript.RequestRegistration("bootstrapToggle")
 
 Example to include css:
-<dnn:dnncssinclude runat="server" filepath="~/Resources/Libraries/bootstrapToggle/02_02_00/bootstrap-toggle.min.css" />
+<code><dnn:dnncssinclude runat="server" filepath="~/Resources/Libraries/bootstrapToggle/02_02_00/bootstrap-toggle.min.css" /></code>
 
 ### Basic example
 Simply add `data-toggle="toggle"` to convert checkboxes into toggles.
